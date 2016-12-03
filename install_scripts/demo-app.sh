@@ -12,7 +12,7 @@ git clone https://github.com/scande3/plm-demo.git
 cd plm-demo
 cp config/database.yml.sample config/database.yml
 cp config/blacklight.yml.sample config/blacklight.yml
-cp config/secret.yml.sample config/secret.yml
+cp config/secrets.yml.sample config/secrets.yml
 cp config/geomash.yml.sample config/geomash.yml
 bundle install --quiet
 rake db:migrate
